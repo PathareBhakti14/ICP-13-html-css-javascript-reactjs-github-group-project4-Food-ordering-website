@@ -11,7 +11,7 @@ const validatePassword = (password) => {
   return password.length >= 6;
 };
 
-const getStorageKey = () => "loginUser_v1";
+const getStorageKey = () => "LoginUser_v1";
 
 const saveUserToStorage = (email, rememberMe = false) => {
   const userData = {
